@@ -5,31 +5,33 @@
         decTotal = lblTotal.Text
         If radMember.Checked And radPaid.Checked Then
             If decTotal < 5000 Then
-                lblDiscount.Text = "ได้รับส่วนลด 5 เปอร์เซ็นต์"
                 decDiscount = decTotal * 0.05
+                lblDiscount.Text = decDiscount
                 decNet = decTotal - decDiscount
                 decCredit = 0
             ElseIf decTotal < 10000 Then
-                lblDiscount.Text = "ได้รับส่วนลด 10 เปอร์เซ็นต์"
+
                 decDiscount = decTotal * 0.1
+                lblDiscount.Text = decDiscount
                 decNet = decTotal - decDiscount
                 decCredit = 0
-            ElseIf decTotal > 10000 Then
-                lblDiscount.Text = "ได้รับส่วนลด 15 เปอร์เซ็นต์"
+            ElseIf decTotal >= 10000 Then
+
                 decDiscount = decTotal * 0.15
+                lblDiscount.Text = decDiscount
                 decNet = decTotal - decDiscount
                 decCredit = 0
             Else
-                lblDiscount.Text="ไม่ได้รับส่วนลด"
+                lblDiscount.Text = decDiscount
                 decNet = decTotal
                 decCredit = 0
             End If
         ElseIf radMember.Checked And radCredit.Checked Then
-            lblDiscount.Text = "ไม่ได้รับส่วนลด"
+            lblDiscount.Text = decDiscount
             decNet = decTotal - 0
             decCredit = decNet
         Else
-            lblDiscount.Text = "ไม่ได้รับส่วนลด"
+            lblDiscount.Text = decDiscount
             decNet = decTotal - 0
             decCredit = 0
         End If
