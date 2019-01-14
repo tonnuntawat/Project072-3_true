@@ -22,5 +22,30 @@ Myproject_072-3_VB
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Myproject_072_3_VB.My.Resources.Resources._20228680_1430061177077150_6228714282100359836_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Myproject_072_3_VB.My.Resources.Resources._44">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Myproject_072_3_VB.My.Resources.Resources.playbutton_113628">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Myproject_072_3_VB.My.Resources.Resources.rewind_113557">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Myproject_072_3_VB.My.Resources.Resources.RMUTI_KORAT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 </members>
 </doc>

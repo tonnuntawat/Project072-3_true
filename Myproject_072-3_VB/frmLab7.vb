@@ -16,25 +16,27 @@
 
     Private Sub btnMove_Click(sender As Object, e As EventArgs) Handles btnMove.Click
 
-        'If lstAdd.Items.Count = 0 Then
-        'MessageBox.Show("กรุณาใส่ข้อมูล")
-        'Else
-        'Dim de As Integer
-        'de = cboOutput.SelectedIndex
+        If lstAdd.Items.Count = 0 Then
+            MessageBox.Show("กรุณาใส่ข้อมูล")
+        Else
+            cboOutput.Items.Add(lstAdd.SelectedItem)
+            cboOutput.SelectedIndex = cboOutput.Items.Count - 1
+            lstAdd.Items.Remove(lstAdd.SelectedItem)
 
-
-        'End If
-        cboOutput.Items.Add(lstAdd.SelectedItem)
-        cboOutput.SelectedIndex = cboOutput.Items.Count - 1
-        lstAdd.Items.Remove(lstAdd.SelectedItem)
+        End If
 
 
 
     End Sub
 
     Private Sub btnMoveAll_Click(sender As Object, e As EventArgs) Handles btnMoveAll.Click
-        cboOutput.Items.Add(lstAdd.SelectedItem)
-        lstAdd.Items.Remove(lstAdd.SelectedItem)
+        If lstAdd.Items.Count = 0 Then
+            MessageBox.Show("กรุณาใส่ข้อมูล")
+        Else
+            cboOutput.Items.Add(lstAdd.SelectedItem)
+            lstAdd.Items.Remove(lstAdd.SelectedItem)
+        End If
+
     End Sub
 
     Private Sub btnBack_Click(sender As Object, e As EventArgs) Handles btnBack.Click

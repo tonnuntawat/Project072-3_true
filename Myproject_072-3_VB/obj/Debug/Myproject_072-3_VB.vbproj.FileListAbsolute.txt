@@ -32,3 +32,5 @@ D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072-3_VB.xml
 D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072-3_VB.pdb
 D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072_3_VB.frmLab6.resources
 D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072_3_VB.frmLab7.resources
+D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072_3_VB.frmLab8.resources
+D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072_3_VB.frmMain.resources
