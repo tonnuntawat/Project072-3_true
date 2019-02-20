@@ -37,3 +37,4 @@ D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072_3_VB.frmMain.
 D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072_3_VB.frmLab10.resources
 D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072_3_VB.frmLabmittrem.resources
 D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072_3_VB.frmLab11.resources
+D:\VB\Project072-3_true\Myproject_072-3_VB\obj\Debug\Myproject_072_3_VB.frmselect.resources

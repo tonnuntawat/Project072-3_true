@@ -51,6 +51,10 @@ Partial Class frmMain
         Me.Lab8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.อนๆToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Lab9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Lab10ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Lab11ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Lab12ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -87,110 +91,110 @@ Partial Class frmMain
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(112, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(177, 6)
         '
         'ใบงาน1ToolStripMenuItem
         '
         Me.ใบงาน1ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน1ToolStripMenuItem.Name = "ใบงาน1ToolStripMenuItem"
-        Me.ใบงาน1ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.ใบงาน1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ใบงาน1ToolStripMenuItem.Text = "ใบงาน1"
         '
         'ใบงาน2ToolStripMenuItem
         '
         Me.ใบงาน2ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน2ToolStripMenuItem.Name = "ใบงาน2ToolStripMenuItem"
-        Me.ใบงาน2ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.ใบงาน2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ใบงาน2ToolStripMenuItem.Text = "ใบงาน2"
         '
         'ใบงาน3ToolStripMenuItem
         '
         Me.ใบงาน3ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน3ToolStripMenuItem.Name = "ใบงาน3ToolStripMenuItem"
-        Me.ใบงาน3ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.ใบงาน3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ใบงาน3ToolStripMenuItem.Text = "ใบงาน3"
         '
         'ใบงาน4ToolStripMenuItem
         '
         Me.ใบงาน4ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน4ToolStripMenuItem.Name = "ใบงาน4ToolStripMenuItem"
-        Me.ใบงาน4ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.ใบงาน4ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ใบงาน4ToolStripMenuItem.Text = "ใบงาน4"
         '
         'ใบงาน5ToolStripMenuItem
         '
         Me.ใบงาน5ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน5ToolStripMenuItem.Name = "ใบงาน5ToolStripMenuItem"
-        Me.ใบงาน5ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.ใบงาน5ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ใบงาน5ToolStripMenuItem.Text = "ใบงาน5"
         '
         'ใบงาน6ToolStripMenuItem
         '
         Me.ใบงาน6ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน6ToolStripMenuItem.Name = "ใบงาน6ToolStripMenuItem"
-        Me.ใบงาน6ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.ใบงาน6ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ใบงาน6ToolStripMenuItem.Text = "ใบงาน6"
         '
         'ใบงาน7ToolStripMenuItem
         '
         Me.ใบงาน7ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน7ToolStripMenuItem.Name = "ใบงาน7ToolStripMenuItem"
-        Me.ใบงาน7ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.ใบงาน7ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ใบงาน7ToolStripMenuItem.Text = "ใบงาน7"
         '
         'ใบงาน8ToolStripMenuItem
         '
         Me.ใบงาน8ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน8ToolStripMenuItem.Name = "ใบงาน8ToolStripMenuItem"
-        Me.ใบงาน8ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.ใบงาน8ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ใบงาน8ToolStripMenuItem.Text = "ใบงาน8"
         '
         'ใบงาน9ToolStripMenuItem
         '
         Me.ใบงาน9ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน9ToolStripMenuItem.Name = "ใบงาน9ToolStripMenuItem"
-        Me.ใบงาน9ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
-        Me.ใบงาน9ToolStripMenuItem.Text = "ใบงาน9"
+        Me.ใบงาน9ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ใบงาน9ToolStripMenuItem.Text = "ใบงาน10"
         '
         'ใบงาน10ToolStripMenuItem
         '
         Me.ใบงาน10ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน10ToolStripMenuItem.Name = "ใบงาน10ToolStripMenuItem"
-        Me.ใบงาน10ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
-        Me.ใบงาน10ToolStripMenuItem.Text = "ใบงาน10"
+        Me.ใบงาน10ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ใบงาน10ToolStripMenuItem.Text = "ใบงาน11"
         '
         'ใบงาน11ToolStripMenuItem
         '
         Me.ใบงาน11ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน11ToolStripMenuItem.Name = "ใบงาน11ToolStripMenuItem"
-        Me.ใบงาน11ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
-        Me.ใบงาน11ToolStripMenuItem.Text = "ใบงาน11"
+        Me.ใบงาน11ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ใบงาน11ToolStripMenuItem.Text = "ใบงาน12"
         '
         'ใบงาน12ToolStripMenuItem
         '
         Me.ใบงาน12ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน12ToolStripMenuItem.Name = "ใบงาน12ToolStripMenuItem"
-        Me.ใบงาน12ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
-        Me.ใบงาน12ToolStripMenuItem.Text = "ใบงาน12"
+        Me.ใบงาน12ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ใบงาน12ToolStripMenuItem.Text = "ใบงาน13"
         '
         'ใบงาน13ToolStripMenuItem
         '
         Me.ใบงาน13ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน13ToolStripMenuItem.Name = "ใบงาน13ToolStripMenuItem"
-        Me.ใบงาน13ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
-        Me.ใบงาน13ToolStripMenuItem.Text = "ใบงาน13"
+        Me.ใบงาน13ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ใบงาน13ToolStripMenuItem.Text = "ใบงาน14"
         '
         'ใบงาน14ToolStripMenuItem
         '
         Me.ใบงาน14ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.rewind_113557
         Me.ใบงาน14ToolStripMenuItem.Name = "ใบงาน14ToolStripMenuItem"
-        Me.ใบงาน14ToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
-        Me.ใบงาน14ToolStripMenuItem.Text = "ใบงาน14"
+        Me.ใบงาน14ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ใบงาน14ToolStripMenuItem.Text = "ใบงาน15"
         '
         'เกยวกบระบบToolStripMenuItem
         '
         Me.เกยวกบระบบToolStripMenuItem.BackColor = System.Drawing.Color.Yellow
-        Me.เกยวกบระบบToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Lab1ToolStripMenuItem, Me.Lab2ToolStripMenuItem, Me.Lab3ToolStripMenuItem, Me.Lab4ToolStripMenuItem, Me.Lab5ToolStripMenuItem, Me.Lab6ToolStripMenuItem, Me.Lab7ToolStripMenuItem, Me.Lab8ToolStripMenuItem})
+        Me.เกยวกบระบบToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Lab1ToolStripMenuItem, Me.Lab2ToolStripMenuItem, Me.Lab3ToolStripMenuItem, Me.Lab4ToolStripMenuItem, Me.Lab5ToolStripMenuItem, Me.Lab6ToolStripMenuItem, Me.Lab7ToolStripMenuItem, Me.Lab8ToolStripMenuItem, Me.Lab9ToolStripMenuItem, Me.Lab10ToolStripMenuItem, Me.Lab11ToolStripMenuItem, Me.Lab12ToolStripMenuItem})
         Me.เกยวกบระบบToolStripMenuItem.Name = "เกยวกบระบบToolStripMenuItem"
         Me.เกยวกบระบบToolStripMenuItem.Size = New System.Drawing.Size(81, 35)
         Me.เกยวกบระบบToolStripMenuItem.Text = "แบบฝึกปฎิบัติ"
@@ -200,7 +204,7 @@ Partial Class frmMain
         Me.Lab1ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.playbutton_113628
         Me.Lab1ToolStripMenuItem.Name = "Lab1ToolStripMenuItem"
         Me.Lab1ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.D1), System.Windows.Forms.Keys)
-        Me.Lab1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab1ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.Lab1ToolStripMenuItem.Text = "Lab1"
         '
         'Lab2ToolStripMenuItem
@@ -208,7 +212,7 @@ Partial Class frmMain
         Me.Lab2ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.playbutton_113628
         Me.Lab2ToolStripMenuItem.Name = "Lab2ToolStripMenuItem"
         Me.Lab2ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.D2), System.Windows.Forms.Keys)
-        Me.Lab2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab2ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.Lab2ToolStripMenuItem.Text = "Lab2"
         '
         'Lab3ToolStripMenuItem
@@ -216,7 +220,7 @@ Partial Class frmMain
         Me.Lab3ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.playbutton_113628
         Me.Lab3ToolStripMenuItem.Name = "Lab3ToolStripMenuItem"
         Me.Lab3ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.D3), System.Windows.Forms.Keys)
-        Me.Lab3ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab3ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.Lab3ToolStripMenuItem.Text = "Lab3"
         '
         'Lab4ToolStripMenuItem
@@ -224,7 +228,7 @@ Partial Class frmMain
         Me.Lab4ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.playbutton_113628
         Me.Lab4ToolStripMenuItem.Name = "Lab4ToolStripMenuItem"
         Me.Lab4ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.D4), System.Windows.Forms.Keys)
-        Me.Lab4ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab4ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.Lab4ToolStripMenuItem.Text = "Lab4"
         '
         'Lab5ToolStripMenuItem
@@ -232,7 +236,7 @@ Partial Class frmMain
         Me.Lab5ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.playbutton_113628
         Me.Lab5ToolStripMenuItem.Name = "Lab5ToolStripMenuItem"
         Me.Lab5ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.D5), System.Windows.Forms.Keys)
-        Me.Lab5ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab5ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.Lab5ToolStripMenuItem.Text = "Lab5"
         '
         'Lab6ToolStripMenuItem
@@ -240,7 +244,7 @@ Partial Class frmMain
         Me.Lab6ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.playbutton_113628
         Me.Lab6ToolStripMenuItem.Name = "Lab6ToolStripMenuItem"
         Me.Lab6ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.D6), System.Windows.Forms.Keys)
-        Me.Lab6ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab6ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.Lab6ToolStripMenuItem.Text = "Lab6"
         '
         'Lab7ToolStripMenuItem
@@ -248,7 +252,7 @@ Partial Class frmMain
         Me.Lab7ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.playbutton_113628
         Me.Lab7ToolStripMenuItem.Name = "Lab7ToolStripMenuItem"
         Me.Lab7ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.D7), System.Windows.Forms.Keys)
-        Me.Lab7ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab7ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.Lab7ToolStripMenuItem.Text = "Lab7"
         '
         'Lab8ToolStripMenuItem
@@ -256,7 +260,7 @@ Partial Class frmMain
         Me.Lab8ToolStripMenuItem.Image = Global.Myproject_072_3_VB.My.Resources.Resources.playbutton_113628
         Me.Lab8ToolStripMenuItem.Name = "Lab8ToolStripMenuItem"
         Me.Lab8ToolStripMenuItem.ShortcutKeys = CType((System.Windows.Forms.Keys.Alt Or System.Windows.Forms.Keys.D8), System.Windows.Forms.Keys)
-        Me.Lab8ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab8ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.Lab8ToolStripMenuItem.Text = "Lab8"
         '
         'อนๆToolStripMenuItem
@@ -277,6 +281,30 @@ Partial Class frmMain
         Me.PictureBox1.Size = New System.Drawing.Size(800, 254)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
+        '
+        'Lab9ToolStripMenuItem
+        '
+        Me.Lab9ToolStripMenuItem.Name = "Lab9ToolStripMenuItem"
+        Me.Lab9ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab9ToolStripMenuItem.Text = "Lab9"
+        '
+        'Lab10ToolStripMenuItem
+        '
+        Me.Lab10ToolStripMenuItem.Name = "Lab10ToolStripMenuItem"
+        Me.Lab10ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab10ToolStripMenuItem.Text = "Lab10"
+        '
+        'Lab11ToolStripMenuItem
+        '
+        Me.Lab11ToolStripMenuItem.Name = "Lab11ToolStripMenuItem"
+        Me.Lab11ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab11ToolStripMenuItem.Text = "Lab11"
+        '
+        'Lab12ToolStripMenuItem
+        '
+        Me.Lab12ToolStripMenuItem.Name = "Lab12ToolStripMenuItem"
+        Me.Lab12ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Lab12ToolStripMenuItem.Text = "Lab12"
         '
         'frmMain
         '
@@ -327,4 +355,8 @@ Partial Class frmMain
     Friend WithEvents ใบงาน13ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ใบงาน14ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents อนๆToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Lab9ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Lab10ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Lab11ToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Lab12ToolStripMenuItem As ToolStripMenuItem
 End Class
