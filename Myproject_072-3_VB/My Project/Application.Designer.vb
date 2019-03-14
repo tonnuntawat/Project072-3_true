@@ -23,7 +23,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Public Sub New()
-            MyBase.New(Global.Microsoft.VisualBasic.ApplicationServices.AuthenticationMode.Windows)
+            MyBase.New(Global.Microsoft.VisualBasic.ApplicationServices.AuthenticationMode.ApplicationDefined)
             Me.IsSingleInstance = false
             Me.EnableVisualStyles = false
             Me.SaveMySettingsOnExit = true
@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Myproject_072_3_VB.frmLab11
+            Me.MainForm = Global.Myproject_072_3_VB.frmLab12
         End Sub
     End Class
 End Namespace

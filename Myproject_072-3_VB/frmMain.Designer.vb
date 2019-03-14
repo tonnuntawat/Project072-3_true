@@ -49,12 +49,12 @@ Partial Class frmMain
         Me.Lab6ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Lab7ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Lab8ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.อนๆToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Lab9ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Lab10ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Lab11ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Lab12ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.อนๆToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -263,6 +263,30 @@ Partial Class frmMain
         Me.Lab8ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
         Me.Lab8ToolStripMenuItem.Text = "Lab8"
         '
+        'Lab9ToolStripMenuItem
+        '
+        Me.Lab9ToolStripMenuItem.Name = "Lab9ToolStripMenuItem"
+        Me.Lab9ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.Lab9ToolStripMenuItem.Text = "Lab9"
+        '
+        'Lab10ToolStripMenuItem
+        '
+        Me.Lab10ToolStripMenuItem.Name = "Lab10ToolStripMenuItem"
+        Me.Lab10ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.Lab10ToolStripMenuItem.Text = "Lab10"
+        '
+        'Lab11ToolStripMenuItem
+        '
+        Me.Lab11ToolStripMenuItem.Name = "Lab11ToolStripMenuItem"
+        Me.Lab11ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.Lab11ToolStripMenuItem.Text = "Lab11"
+        '
+        'Lab12ToolStripMenuItem
+        '
+        Me.Lab12ToolStripMenuItem.Name = "Lab12ToolStripMenuItem"
+        Me.Lab12ToolStripMenuItem.Size = New System.Drawing.Size(135, 22)
+        Me.Lab12ToolStripMenuItem.Text = "Lab12"
+        '
         'อนๆToolStripMenuItem
         '
         Me.อนๆToolStripMenuItem.BackColor = System.Drawing.Color.Fuchsia
@@ -281,30 +305,6 @@ Partial Class frmMain
         Me.PictureBox1.Size = New System.Drawing.Size(800, 254)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
-        '
-        'Lab9ToolStripMenuItem
-        '
-        Me.Lab9ToolStripMenuItem.Name = "Lab9ToolStripMenuItem"
-        Me.Lab9ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Lab9ToolStripMenuItem.Text = "Lab9"
-        '
-        'Lab10ToolStripMenuItem
-        '
-        Me.Lab10ToolStripMenuItem.Name = "Lab10ToolStripMenuItem"
-        Me.Lab10ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Lab10ToolStripMenuItem.Text = "Lab10"
-        '
-        'Lab11ToolStripMenuItem
-        '
-        Me.Lab11ToolStripMenuItem.Name = "Lab11ToolStripMenuItem"
-        Me.Lab11ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Lab11ToolStripMenuItem.Text = "Lab11"
-        '
-        'Lab12ToolStripMenuItem
-        '
-        Me.Lab12ToolStripMenuItem.Name = "Lab12ToolStripMenuItem"
-        Me.Lab12ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.Lab12ToolStripMenuItem.Text = "Lab12"
         '
         'frmMain
         '

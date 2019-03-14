@@ -64,6 +64,28 @@ Namespace My
                 Return CType(Me("strCon"),String)
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local)\SQLEXPRESS;Initial Catalog=tbCompany;User ID=bisstart;Passwor"& _ 
+            "d=123456")>  _
+        Public ReadOnly Property myCom() As String
+            Get
+                Return CType(Me("myCom"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=(local)\SQLEXPRESS;Initial Catalog=Cosmetics;User ID=bisstart;Passwor"& _ 
+            "d=123456")>  _
+        Public ReadOnly Property myConCompany() As String
+            Get
+                Return CType(Me("myConCompany"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 

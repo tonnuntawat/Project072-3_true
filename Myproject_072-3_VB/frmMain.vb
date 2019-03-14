@@ -87,4 +87,8 @@
     Private Sub ใบงาน10ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ใบงาน10ToolStripMenuItem.Click
         frmLab11.ShowDialog()
     End Sub
+
+    Private Sub ใบงาน11ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ใบงาน11ToolStripMenuItem.Click
+        frmLab12.ShowDialog()
+    End Sub
 End Class

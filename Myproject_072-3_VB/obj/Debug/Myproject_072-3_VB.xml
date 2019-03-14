@@ -47,5 +47,70 @@ Myproject_072-3_VB
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="T:Myproject_072_3_VB.sdsBis">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Myproject_072_3_VB.sdsBis.EmployeesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Myproject_072_3_VB.sdsBis.EmployeesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Myproject_072_3_VB.sdsBis.EmployeesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Myproject_072_3_VB.sdsBisTableAdapters.EmployeesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Myproject_072_3_VB.sdsBisTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Myproject_072_3_VB.sdsBisTableAdapters.TableAdapterManager.UpdateUpdatedRows(Myproject_072_3_VB.sdsBis,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Myproject_072_3_VB.sdsBisTableAdapters.TableAdapterManager.UpdateInsertedRows(Myproject_072_3_VB.sdsBis,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Myproject_072_3_VB.sdsBisTableAdapters.TableAdapterManager.UpdateDeletedRows(Myproject_072_3_VB.sdsBis,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Myproject_072_3_VB.sdsBisTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Myproject_072_3_VB.sdsBisTableAdapters.TableAdapterManager.UpdateAll(Myproject_072_3_VB.sdsBis)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Myproject_072_3_VB.sdsBisTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Myproject_072_3_VB.sdsBisTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>
